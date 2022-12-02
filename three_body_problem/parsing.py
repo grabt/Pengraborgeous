@@ -15,6 +15,8 @@ class Configuration(pydantic.BaseModel):
     delta_t: float
     video_length: int
     output_path: str
+    width: int = 600
+    height: int = 600
 
 
 def parse_config(path: str):

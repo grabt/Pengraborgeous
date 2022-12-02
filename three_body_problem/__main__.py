@@ -7,9 +7,9 @@ def main():
     config = parse_config("example.json")
     engine = Engine(config)
     engine.simulate()
-    recording = engine.dataframe()
+    recording = engine.get_dataframe()
     visualizer = Visualizer(config, recording)
-    visualizer.movie()
+    visualizer.play_movie()
     print(config)
 
 
