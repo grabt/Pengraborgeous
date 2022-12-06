@@ -1,0 +1,39 @@
+{
+    "bodies": [
+        {
+            "mass": 1.989e30,
+            "x": 0,
+            "y": 0,
+            "v_x": 4,
+            "v_y": 2,
+            "color": "yellow"
+        },
+        {
+            "mass": 0.33011e24,
+            "x": 57.909e9,
+            "y": 0,
+            "v_x": 0,
+            "v_y": 47.36e3,
+            "color": "brown"
+        },
+        {
+            "mass": 4.8675e24,
+            "x": 108.209e9,
+            "y": 0,
+            "v_x": 0,
+            "v_y": 35.02e3,
+            "color": "orange"
+        },
+        {
+            "mass": 5.9724e24,
+            "x": 149.596e9,
+            "y": 0,
+            "v_x": 0,
+            "v_y": 29.78e3,
+            "color": "blue"
+        }
+    ],
+    "delta_t": 86400,
+    "video_length": 315360000,
+    "output_path": "./simulation.mp4"
+}
